@@ -3,17 +3,17 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
+    <title>{{ page.title | default: page.name }}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+    <style>{{ page.style }}</style>
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
+      <h1><a href="#{{ site.url }}">Hello world!</a></h1>
       {{ content }}
-      <h1><a href="https://feelsofti.github.io/">feelsofti.github.io</a></h1>
-      <h2 id="hello">Hello</h2>
-<p><a href="/sweety-space-pet/index.md">Click me!</a></p> 
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
