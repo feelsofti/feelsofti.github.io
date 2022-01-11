@@ -3,6 +3,8 @@ title: Забери питомца из приюта 2
 layout: default
 ---
 
+{% include petsummary.md %}
+
 {% include petlist.md %}
 
 исходники: 
