@@ -3,4 +3,4 @@
 [Click me!](./pets.md)
 
 
- <iframe src="https://feelsofti.github.io/pets.html" width="468" height="800" align="left">
+<iframe src="https://feelsofti.github.io/pets.html" width="100%" height="550" align="left" style="position:relative;" frameborder="0" scrolling="yes">Frame error</iframe>
