@@ -3,6 +3,7 @@
 {% if forloop.first %}{% continue %}{% endif %}
 {% unless pet.mestovylova %}{% continue %}{% endunless %}
 <li class="card">
+
 <b>ФОТО тварини: {{ pet.photo }}</b><br>
 {% if pet.photo %}  
 <a href="./img/dog.jpg"><img alt="фото тварини" src="./img/dog.jpg" width="300px" height="300px" class="photo" title="скачать фото"></a><br>
@@ -25,8 +26,8 @@
 {%- else -%}
 <div style="background-color: yellow;">Ищем хозяина! Что бы забрать питомца к себе, позвоните нам. <a href="#/contacts.html"><strong>Контакты</strong></a></div> 
 {%- endif -%}<br>
-<details markdown="1">
-<b>Здійснені заходи з ветеринарного огляду тварини<span title="(ветеринарна допомога, карантинування, дегільментизація, інсектоакарицидна обробка, вакцинація, стерилізація, ідентифікація)" style="color:#d5875c">(?)</span>:</b><br> 
+
+<details markdown="1"><b>Здійснені заходи з ветеринарного огляду тварини<span title="(ветеринарна допомога, карантинування, дегільментизація, інсектоакарицидна обробка, вакцинація, стерилізація, ідентифікація)" style="color:#d5875c">(?)</span>:</b><br> 
 {% if pet.vaccine %}{{ pet.vaccine | newline_to_br }}<br> {% endif %}
 <b>Природні ознаки:</b> 
 {{ pet.signs }}<br>
@@ -36,7 +37,7 @@
 {{ pet.health }}<br> 
 <b>Відомості про опікуна в разі його наявності (ПІБ, місце проживання):</b> 
 {{ pet.guardian }}<br> 
-<b>Дата та місце повернення тварини, якщо тварина повернута до ареалу перебування (у місця вилову):</b> 
+<b>Дата та місце повернення тварини<span title="якщо тварина повернута до ареалу перебування (у місця вилову)" style="color:#d5875c">(?)</span>:</b> 
 {{ pet.address }}<br> 
 <b>Номер запису в базi:</b>
 {{ forloop.index }}<br>
