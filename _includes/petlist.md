@@ -1,4 +1,4 @@
-<ul>
+<ul class="cards">
 {% for pet in site.data.pets2 %}
 {% if forloop.first %}{% continue %}{% endif %}
 {% unless pet.mestovylova %}{% continue %}{% endunless %}
