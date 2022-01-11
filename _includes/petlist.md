@@ -7,7 +7,7 @@
 {% if pet.photo %}  
 <a href="./img/dog.jpg"><img alt="фото тварини" src="./img/dog.jpg" width="300px" height="300px" class="photo" title="скачать фото"></a><br>
 {% else %}
-<img alt="фото не завантажено" src="./img/cat.png" width="300px" height="300px" class="photo" title="фото немає"><br>
+<img alt="фото не завантажено" src="./img/cat.jpg" width="300px" height="300px" class="photo" title="фото немає"><br>
 {% endif %}
 <b>Вид:</b> 
 {{ pet.category }}<br> 
