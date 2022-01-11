@@ -1,3 +1,3 @@
 ## Hello
 
-[Click me!](/sweety-space-pet/index.md)
+[Click me!](./pets.md)
