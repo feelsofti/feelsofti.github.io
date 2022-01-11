@@ -1,5 +1,5 @@
 <ul class="cards">
-{% for pet in site.data.pets2 %}
+{% for pet in site.data.pets %}
 {% if forloop.first %}{% continue %}{% endif %}
 {% unless pet.mestovylova %}{% continue %}{% endunless %}
 <li class="card">
