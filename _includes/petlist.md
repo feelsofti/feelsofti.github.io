@@ -40,7 +40,6 @@
 <b>Номер запису в базi: </b>
 {{ forloop.index0 | plus: 2 }}
 </details> 
-<br>
 </li>
 <br>
 {% endfor %}
