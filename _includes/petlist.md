@@ -38,7 +38,7 @@
 <b>Дата та місце повернення тварини<span title="якщо тварина повернута до ареалу перебування (у місця вилову)" style="color:#d5875c">(?)</span>:</b> 
 {{ pet.address }}<br> 
 <b>Номер запису в базi: </b>
-{{ forloop.index0 | plus: 2 }}
+{{ forloop.index0 | plus: 2 }}<br>
 </details> 
 </li>
 <br>
