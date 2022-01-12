@@ -9,4 +9,4 @@
 Примечания:
 - Для нормальной работы экспорта CSV из Excel нужно в региональных настройках задать как символ разделения столбцов запятую ","
 - На сайте нужно разместить следующий код:  
-```<iframe src="https://feelsofti.github.io/pets" width="100%" height="550" align="left" style="position:relative;" frameborder="0" scrolling="yes">Frame error</iframe>```
+  ```<iframe src="https://feelsofti.github.io/pets" width="100%" height="550" align="left" style="position:relative;" frameborder="0" scrolling="yes">Frame error</iframe>```
